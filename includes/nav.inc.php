@@ -59,10 +59,7 @@ echo '<li class="nav-item">
           
           }
 
-         echo' <div class="dropdown">
-                <span>Mouse over me</span>
-                <div class="dropdown-content">
-                <p>Hello World!</p>';
+     
                 ?>  
                 
                 
@@ -70,9 +67,8 @@ echo '<li class="nav-item">
   </div>
 </div>
           
-echo '</nav>';
-echo '</div>';
-?>
+</nav>
+</div>
 
 
 

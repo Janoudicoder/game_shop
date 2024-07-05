@@ -47,7 +47,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             header('location:../index.php?page=ADD_cato');
             exit;
         }
-        
     } catch (PDOException $e) {
         echo '<div class="alert alert-danger">Error: ' . $e->getMessage() . '</div>';
     }
